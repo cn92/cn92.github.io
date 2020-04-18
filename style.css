@@ -7,11 +7,12 @@ body{
     background: #eee;
     font: 10pt/16pt arial;
     color: #333;
+    margin: auto;
 }
 
 #container{
     background: #fff;
-    margin: 10px 0px 10px 0px auto;
+    margin: auto;
     width: 82%;
     display: block;
     border: 3px solid #aaa;
