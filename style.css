@@ -14,11 +14,25 @@ body{
 #container{
     background: #fff;
     margin: auto;
-    width: 72%;
+    width: 62%;
     display: block;
-    border: 3px solid #aaa;
 }
 
+header{
+    height: 150px;
+}
+
+header h1{
+    text-align: center;
+    font: 40pt/40pt arial narrow;
+    letter-spacing: 2px;
+}
+
+footer{
+    background: #ddd;
+    text-align: center;
+    padding: 10px;
+}
 
 main{
     padding: 0px;
@@ -30,6 +44,7 @@ article{
 
 section{
     padding: 10px;
+    border-bottom: 1px solid #bbb;
 }
 
 nav{
@@ -42,15 +57,16 @@ nav{
 nav a, nav a:link, nav a:visited{
     text-align: center;
     width: 100px;
-    background: #bbb;
+    background: #ddd;
     padding: 20px;  
     color: #000;
     font: 16pt/18pt arial;
+    border: 1px solid #fff;
 }
 
 nav a:hover{
     color: #fff;
-    background: #ddd;
+    background: #aaa;
     transition: all 0.3s ease;
 }
 
@@ -58,6 +74,7 @@ a,a:link,a:visited,a:active{
     color: #666;
     text-decoration: none;
     transition: all 0.3s ease;
+    border-bottom: 1px dotted #aaa;
 }
 
 a:hover{
