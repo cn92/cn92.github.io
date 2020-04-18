@@ -8,12 +8,13 @@ body{
     font: 10pt/16pt arial;
     color: #333;
     margin: auto;
+    transition: all 0.3s ease;
 }
 
 #container{
     background: #fff;
     margin: auto;
-    width: 82%;
+    width: 72%;
     display: block;
     border: 3px solid #aaa;
 }
@@ -34,28 +35,28 @@ section{
 nav{
     padding: 0px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
     flex-direction: row;
 }
 
 nav a, nav a:link, nav a:visited{
-    flex: auto;
-    display: block;
+    text-align: center;
     width: 100px;
-    background: #555;
-    padding: 5px;  
+    background: #bbb;
+    padding: 20px;  
     color: #000;
+    font: 16pt/18pt arial;
 }
 
 nav a:hover{
-    color: #000;
-    background: #999;
+    color: #fff;
+    background: #ddd;
     transition: all 0.3s ease;
 }
 
 a,a:link,a:visited,a:active{
     color: #666;
+    text-decoration: none;
     transition: all 0.3s ease;
 }
 
