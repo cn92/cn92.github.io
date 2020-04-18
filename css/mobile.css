@@ -1,0 +1,61 @@
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+/**************************************
+        STYLE.CSS FOR PORTFOLIO
+**************************************/
+
+body{
+
+}
+
+#container{
+    background: #fff;
+    margin: auto;
+    width: 90%;
+    display: block;
+}
+
+header{
+    height: 100%;
+}
+
+header h1{
+}
+
+footer{
+
+}
+
+main{
+
+}
+
+article{
+
+}
+
+section{
+
+}
+
+nav{
+
+}
+
+nav a, nav a:link, nav a:visited{
+
+}
+
+nav a:hover{
+
+}
+
+a,a:link,a:visited,a:active{
+
+}
+
+a:hover{
+
+}
+
+}
