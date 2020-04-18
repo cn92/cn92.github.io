@@ -5,12 +5,13 @@
 
 body{
     background: #eee;
-    margin: 0px auto;
+    margin: 10px 0px auto;
+    font: 10pt/16pt arial;
+    color: #333;
 }
 
 #container{
     background: #fff;
-    margin: 0px auto;
     width: 82%;
     display: block;
     border: 2px solid #000;
@@ -27,4 +28,13 @@ article{
 
 section{
 
+}
+
+a,a:link,a:visited,a:active{
+    color: #666;
+}
+
+a:hover{
+    color: #ccc;
+    transition: all 0.5s ease;
 }
