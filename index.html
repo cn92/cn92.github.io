@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WORK IN PROGRESS</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="css/mobile.css" />
+    <link rel="stylesheet" type="text/css"
+        media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="css/mobile.css" />
     <meta name="viewport" content="width=device-width" />
 </head>
 
@@ -36,15 +37,121 @@
                     tristique blandit dignissim. Sed consequat orci odio. Vestibulum sit amet nibh nec purus mattis
                     sagittis sit amet sit amet libero. Curabitur consectetur, erat elementum maximus lacinia, lacus ante
                     laoreet tellus, eu pulvinar ipsum felis quis enim. </p>
-                <p>
-                    Nulla eu rhoncus est. Nullam egestas condimentum
-                    arcu et pretium. Pellentesque malesuada dui libero, vitae pretium lectus porttitor sit amet. Nulla
-                    eros purus, viverra a vestibulum in, tempus et sem. Ut pretium rhoncus nisi sed cursus. Morbi
-                    lobortis luctus turpis, <a href="#">eu pellentesque diam</a>.</p>
+
+                <ul>List Title
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
             </section>
 
             <section>
                 <h3>In progress #2...</h3>
+                <p>
+
+                    <p>
+                        Nulla eu rhoncus est. Nullam egestas condimentum
+                        arcu et pretium. Pellentesque malesuada dui libero, vitae pretium lectus porttitor sit amet.
+                        Nulla
+                        eros purus, viverra a vestibulum in, tempus et sem. Ut pretium rhoncus nisi sed cursus. Morbi
+                        lobortis luctus turpis, <a href="#">eu pellentesque diam</a>.</p>
+            </section>
+
+            <section>
+                <h3>Examples of form...</h3>
+
+                <form action="action.php" method="post" class="example">
+
+                    <div>
+
+                        <fieldset>
+                            <legend>Information</legend>
+                            <label for="name">Name: </label>
+                            <input type="text" id="name" name="name" required minlength="2" maxlength="15" size="15" />
+
+                            <hr />
+
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email" required minlength="5" maxlength="100"
+                                size="15" />
+
+                            <hr />
+
+                            Select Art Style
+                            <div>
+                                <input type="radio" id="sketch" name="style" value="sketch">
+                                <label for="sketch">Sketch</label>
+
+                                <input type="radio" id="cell" name="style" value="cell">
+                                <label for="cell">Cell-Shade</label>
+
+                                <input type="radio" id="soft" name="style" value="soft">
+                                <label for="soft">Soft-Shade</label>
+                            </div>
+
+                            <hr />
+
+                            Select Type
+                            <div>
+                                <input type="radio" id="portrait" name="type" value="portrait">
+                                <label for="portrait">Portrait</label>
+
+                                <input type="radio" id="waist" name="type" value="waist">
+                                <label for="waist">Waist-Up</label>
+
+                                <input type="radio" id="full" name="type" value="full">
+                                <label for="full">Full-Body</label>
+                            </div>
+                        </fieldset>
+
+
+                        <fieldset>
+                            <legend>Art Preferences</legend>
+                            Select Color Preferences<br />
+                            <div>
+                                <input type="color" id="c1" name="c1" value="#aaaaaa">
+                                <input type="color" id="c2" name="c2" value="#cccccc">
+                                <input type="color" id="c3" name="c3" value="#ffffff">
+                            </div>
+
+                            <label for="ref">Link image references</label><br />
+                            <input type="url" name="url" id="url" placeholder="http://" size="24" pattern="http://.*">
+                            <input type="url" name="url2" id="url2" placeholder="http://" size="24"
+                                pattern="http://.*"><br />
+                            <label for="ref">or upload image</label><br />
+                            <input type="file" id="refs" name="refs" accept="image/png, image/jpeg">
+
+                            <hr />
+
+                            <label for="chars">Number of characters:</label>
+                            <input id="chars" type="number" value="1" min="1" max="6">
+                        </fieldset>
+
+
+                        <fieldset>
+                            <legend>Description</legend>
+                            <textarea id="desc" name="desc" rows="5"
+                                cols="40">Enter in information about facial expressions, poses, additional items, special effects, etc.</textarea>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Additional Information or Questions</legend>
+                            <textarea id="desc" name="desc" rows="5"
+                                cols="40">Questions, comments, additional information.</textarea>
+                        </fieldset>
+
+                    </div>
+                    <div class="sub">
+                        <button type="submit">Submit</button><button type="reset">Reset</button>
+                    </div>
+                </form>
+
+            </section>
+
+
+
+            <section>
+                <h3>In progress #3...</h3>
                 <p>
                     Suspendisse semper porta egestas. In hac habitasse platea dictumst. Proin tristique et lectus ut
                     volutpat. Sed eu dolor quis eros convallis feugiat ut congue urna. In id vulputate leo, id placerat
