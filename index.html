@@ -4,85 +4,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WORK IN PROGRESS</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css"
-        media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="css/mobile.css" />
-    <meta name="viewport" content="width=device-width" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <title>Document</title>
 </head>
 
 <body>
 
-    <div id="container">
+    <div id="wrap">
 
         <header>
-
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
-            </nav>
-
-            <h1>Portfolio Site</h1>
+            Cyerenity
         </header>
+
+        <!--------------------------------->
+
+        <!--Navigation bar-->
+        <nav id="menu">
+            <script>
+                $(function () {
+                    $("#menu").load("nav.html");
+                });
+            </script>
+        </nav>
+        <!--end of Navigation bar-->
+
+        <!--------------------------------->
 
         <main>
 
-            <section>
-                <h3>In progress...</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor arcu sit amet metus mollis,
-                    sit amet facilisis est tincidunt. Morbi tempor magna turpis, quis aliquet arcu mattis at. Aenean
-                    tristique blandit dignissim. Sed consequat orci odio. Vestibulum sit amet nibh nec purus mattis
-                    sagittis sit amet sit amet libero. Curabitur consectetur, erat elementum maximus lacinia, lacus ante
-                    laoreet tellus, eu pulvinar ipsum felis quis enim. </p>
+            <!--------------------------------->
 
-                <ul>List Title
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ul>
-
-                <a href="form.html">This link takes you to the form page where you can see how it operates.</a>
-            </section>
-
-            <section>
-                <h3>In progress #2...</h3>
-                <p>
-
-                    <p>
-                        Nulla eu rhoncus est. Nullam egestas condimentum
-                        arcu et pretium. Pellentesque malesuada dui libero, vitae pretium lectus porttitor sit amet.
-                        Nulla
-                        eros purus, viverra a vestibulum in, tempus et sem. Ut pretium rhoncus nisi sed cursus. Morbi
-                        lobortis luctus turpis, <a href="#">eu pellentesque diam</a>.</p>
-            </section>
+            <!--Sidebar-->
+            <nav id="sidebar">
+                <script>
+                    $(function () {
+                        $("#sidebar").load("sidebar.html");
+                    });
+                </script>
+            </nav>
+            <!--End of Sidebar-->
 
 
-            <section>
-                <h3>In progress #3...</h3>
-                <p>
-                    Suspendisse semper porta egestas. In hac habitasse platea dictumst. Proin tristique et lectus ut
-                    volutpat. Sed eu dolor quis eros convallis feugiat ut congue urna. In id vulputate leo, id placerat
-                    velit. Quisque ultricies bibendum mi, nec posuere tortor mattis in. Donec ac facilisis libero.
-                    Maecenas ultricies felis felis.
-                </p>
-                <p>Donec sed condimentum lectus. Ut at finibus mi. Quisque lacinia
-                    aliquam lorem consectetur congue. Etiam elit erat, laoreet quis ex nec, semper malesuada neque.
-                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam at
-                    egestas ante. Aliquam dictum tortor dignissim augue pulvinar fringilla. Integer volutpat ipsum
-                    nulla, a efficitur velit porttitor vitae.
-                </p>
-            </section>
+            <!--BEGIN CONTENT-->
+            <article>
+
+                <section>
+                    <h1>Little Updates</h1>
+                    <p>Using javascript to call menu and sidebar. Reason:
+                        Being
+                        able to edit the navigation/sidebar information without having to copy-paste onto every single
+                        page. Also made page for testing other CSS objects <a href="showallcss.html">over here</a>.</p>
+                    <p>Attempting to change css to a more pleasing look. Previous gray version with the billions of
+                        borders was just to see how everything spaced out.</p>
+                </section>
+                <aside>Posted on 10/25/2019</aside>
+
+                <section>
+                    <h1>Lorem Ipsum</h1>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lectus venenatis
+                        justo auctor blandit. Suspendisse potenti. Curabitur sed magna vel magna condimentum ultrices.
+                        Ut et accumsan dui. Etiam sem dolor, ultricies congue mattis in, dapibus a sapien. Aenean
+                        vestibulum augue ut blandit bibendum. Morbi posuere metus accumsan dignissim accumsan. Donec ut
+                        scelerisque lacus, id pharetra lacus.</p>
+
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        Cras vulputate dictum lacus, convallis finibus nisi eleifend id. Mauris at lectus non metus
+                        hendrerit aliquam eu a ex. Quisque sem risus, ultrices in nulla ac, feugiat semper urna.
+                        Phasellus odio nisl, consequat sit amet dolor ut, consectetur sodales lacus. Vestibulum tempor
+                        egestas diam, a pretium risus blandit ut. Pellentesque urna metus, feugiat in ante a, semper
+                        condimentum diam. Etiam lorem leo, euismod et fringilla sit amet, semper id ligula. Nunc et
+                        tristique sapien. Donec nunc nisl, condimentum in consectetur nec, vulputate eu urna. Praesent
+                        consequat vestibulum felis, sed vestibulum justo ultricies in. Phasellus lacinia consectetur
+                        lorem, vitae auctor eros tristique vel. In malesuada, quam eu lacinia molestie, ante dui
+                        accumsan massa, ut luctus metus libero a arcu. Vestibulum ante ipsum primis in faucibus orci
+                        luctus et ultrices posuere cubilia Curae;</p>
+
+                </section>
+                <aside>Posted on 10/11/2019</aside>
+
+
+                <section>
+                    <h1>Lorem Ipsum</h1>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lectus venenatis
+                        justo auctor blandit. Suspendisse potenti. Curabitur sed magna vel magna condimentum ultrices.
+                        Ut et accumsan dui. Etiam sem dolor, ultricies congue mattis in, dapibus a sapien. Aenean
+                        vestibulum augue ut blandit bibendum. Morbi posuere metus accumsan dignissim accumsan. Donec ut
+                        scelerisque lacus, id pharetra lacus.</p>
+
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        Cras vulputate dictum lacus, convallis finibus nisi eleifend id. Mauris at lectus non metus
+                        hendrerit aliquam eu a ex. Quisque sem risus, ultrices in nulla ac, feugiat semper urna.
+                        Phasellus odio nisl, consequat sit amet dolor ut, consectetur sodales lacus. Vestibulum tempor
+                        egestas diam, a pretium risus blandit ut. Pellentesque urna metus, feugiat in ante a, semper
+                        condimentum diam. Etiam lorem leo, euismod et fringilla sit amet, semper id ligula. Nunc et
+                        tristique sapien. Donec nunc nisl, condimentum in consectetur nec, vulputate eu urna. Praesent
+                        consequat vestibulum felis, sed vestibulum justo ultricies in. Phasellus lacinia consectetur
+                        lorem, vitae auctor eros tristique vel. In malesuada, quam eu lacinia molestie, ante dui
+                        accumsan massa, ut luctus metus libero a arcu. Vestibulum ante ipsum primis in faucibus orci
+                        luctus et ultrices posuere cubilia Curae;</p>
+
+                </section>
+                <aside>Posted on 10/11/2019</aside>
+
+
+            </article>
+
+            <!--END CONTENT HERE-->
+
+            <!--------------------------------->
 
         </main>
-
-        <footer>&copy; 2020 Cyn | All rights reserved.</footer>
-
+        <footer>&copy; 2019 Cyn <br /> <a href='https://ko-fi.com/C0C4GW0V' target='_blank'
+                style="background: none; border: 0px;"><img height='36'
+                    style='border:0px;height:36px; background: none; border: 0px;'
+                    src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0'
+                    alt='Buy Me a Coffee at ko-fi.com' /></a></footer>
     </div>
-
-
 </body>
 
 </html>

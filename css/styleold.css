@@ -1,0 +1,139 @@
+
+/**************************************
+        STYLE.CSS FOR PORTFOLIO
+**************************************/
+
+body{
+    background: #eee;
+    font: 10pt/16pt arial;
+    color: #333;
+    margin: auto;
+}
+
+#container{
+    background: #fff;
+    margin: auto;
+    width: 1200px;
+    display: block;
+    display: grid;
+}
+
+header{
+    height: 150px;
+}
+
+header h1{
+    text-align: center;
+    font: 40pt/40pt arial narrow;
+    letter-spacing: 2px;
+    border: 0px;
+    padding: 0px;
+}
+
+footer{
+    background: #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    padding: 0px;
+}
+
+article{
+    padding: 0px;
+}
+
+section{
+    padding: 10px;
+    border-bottom: 1px solid #bbb;
+}
+
+h1,h2,h3,h4,h5{
+    font: 16pt/18pt arial;
+    color: #222;
+    border-left: 20px solid #ddd;
+    padding: 5px;
+}
+
+nav{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+nav a, nav a:link, nav a:visited{
+    text-align: center;
+    width: 100px;
+    background: #ddd;
+    padding: 20px;  
+    color: #000;
+    font: 16pt/18pt arial;
+    border: 1px solid #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover{
+    color: #fff;
+    background: #aaa;
+    /*transform: translate(3px, 3px);*/
+}
+
+a,a:link,a:visited,a:active{
+    color: #666;
+    text-decoration: none;
+    border-bottom: 1px dotted #aaa;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color: #ddd;
+}
+
+.example{
+    padding: 0px;
+    margin: 10px auto;
+    width: 900px;        
+}
+
+.example hr{
+    border: 2px solid #eee;
+}
+
+.example div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: top center;     
+}
+
+fieldset{
+    width: 415px;
+    border: 3px solid #eee;
+    //background: #eee;
+    padding: 10px;   
+}
+
+legend{
+    font: 14pt/15pt arial;
+}
+
+.sub{
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
+.sub button{
+    width: 100px;
+    border: 2px solid #ccc;
+    background: #eee;
+    padding: 5px;   
+    margin: 5px;
+}
+
+input, textarea{
+    padding: 2px;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="wrap">
+
+        <header>
+            Cyerenity
+        </header>
+
+        <!--------------------------------->
+
+        <!--Navigation bar-->
+        <nav id="menu">
+            <script>
+                $(function () {
+                    $("#menu").load("nav.html");
+                });
+            </script>
+        </nav>
+        <!--end of Navigation bar-->
+
+        <!--------------------------------->
+
+        <main>
+
+            <!--------------------------------->
+
+            <!--Sidebar-->
+            <nav id="sidebar">
+                <script>
+                    $(function () {
+                        $("#sidebar").load("sidebar.html");
+                    });
+                </script>
+            </nav>
+            <!--End of Sidebar-->
+
+
+            <!--BEGIN CONTENT-->
+            <article>
+
+                <section>
+                    <h1>Order Artwork</h1>
+                    <p>Order an artwork tailored and customized to your heart’s content. Please provide as much detail
+                        as you can so that I am able to provide you the product that you desire.</p>
+                    <p>Refresh yourself on the information regarding commissions on <a href="policies.html">this
+                            page</a>before ordering and check out the <a href="pricing.html">pricing here</a>! Any
+                        inquiries regarding the commission process can be <a href="contact.html">sent here</a>.</p>
+                    <form class="contact" name="artrequest" netlify>
+                        <label>Name</label><input type="text" name="name" />
+                        <label>Email</label><input type="email" name="email" />
+                        <label>Type &rArr;
+                            <input type="radio" name="type" value="waistup" class="radio" /> Waist Up
+                            <input type="radio" name="type" value="fullbody" class="radio" /> Full Body</label>
+                        <label>Style &rArr;
+                            <input type="radio" name="style" value="sketch" class="radio" /> Sketch
+                            <input type="radio" name="style" value="simple" class="radio" /> Simple Shading
+                            <input type="radio" name="style" value="soft" class="radio" /> Soft Shading</label>
+                        <label>Details (Include image, written references, colors, poses, etc.)</label><textarea
+                            class="contact" name="message"></textarea>
+                        <label><button type="submit">Submit</button></label>
+                    </form>
+                </section>
+                <aside>Please give time for me to respond. Expected response time is 2 - 7 days.</aside>
+            </article>
+
+
+            </article>
+
+            <!--END CONTENT HERE-->
+
+            <!--------------------------------->
+
+        </main>
+        <footer>&copy; 2019 Cyn <br /> <a href='https://ko-fi.com/C0C4GW0V' target='_blank'
+                style="background: none; border: 0px;"><img height='36'
+                    style='border:0px;height:36px; background: none; border: 0px;'
+                    src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0'
+                    alt='Buy Me a Coffee at ko-fi.com' /></a></footer>
+    </div>
+</body>
+
+</html>
